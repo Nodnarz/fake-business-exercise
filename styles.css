@@ -19,6 +19,7 @@ body, p {
 }
 
 /* Section 3 */
+
 .container3 {
     background-color: #E5E7EB;
     display: flex;
@@ -69,4 +70,13 @@ body, p {
     height: 45px;
     width: 100px;
     align-self: center;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
 }
