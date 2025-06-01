@@ -5,58 +5,28 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto sans-serif;
+}
+
+.container3 {
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* padding: 30px 0; */
 }
 
-p, ul {
-    margin: 0;
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    width: 55%;
+    align-self: center;
 }
 
-ul {
-    display: flex;
-    gap: 16px;
-    list-style: none;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 20%;
-}
-
-.section1, .header {
-    background-color: #1f2937;
-    color: white;
-}
-
-.section1 {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20%;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    padding: 8px;
-    gap: 8px;
-    justify-content: space-between;
-}
-
-#hero-main {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 900;
-}
-
-#hero-secondary {
+#author {
     font-size: 18px;
-    color: #E5E7EB;
-}
-
-button {
-    width: 100px;
+    font-weight: bold;
+    align-self: center;
+    text-align: end;
+    width: 50%;
 }
